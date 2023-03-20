@@ -1,0 +1,30 @@
+body {
+  font-family: "Raleway";
+  width: 720px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.piechart {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(white 40%, transparent 41%),
+    conic-gradient(
+      gray 0% 15%,
+      rgba(46, 177, 78, 0.911) 15% 22%,
+      rgb(0, 174, 255) 22.5% 47.5%,
+      rgba(250, 0, 54, 0.753) 47.5% 57.5%,
+      orange 57.5% 100%
+    );
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(10%, 10%);
+}
